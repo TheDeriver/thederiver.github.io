@@ -1,6 +1,6 @@
 
 body {
-	background-color: #0f0f0f;
+	background-color: #000000;
 	color:white;
 	position: relative;
 }
@@ -16,14 +16,14 @@ body {
 }
 div.tabBox{
 	background-color: transparent;
-	width: 1320px;
+	width: 60%;
 	position: relative;
-    left: 300px;
+    left: 20%;
 }
 
 div.tabBox h3 {
 	position:relative;
-	left:-100px;
+	left:-10%;
 	font-size: 200%;
 }
 
@@ -34,7 +34,6 @@ div.tabBar {
     user-select:none;
     cursor:default;
     transition: 0.3s;
-    left:200px;
 }
 
 div.tabPage{
