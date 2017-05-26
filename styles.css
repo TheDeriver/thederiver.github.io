@@ -45,9 +45,9 @@ div.tabPage{
 
 div.tabBar button {
 	user-select:none;
-	width: 200px;
+	width: 10.42%;
     height: 70px;
-	background-color: inherit;
+	background-color: black;
 	font-size:200%;
 	font-family:"Quicksand";
 	justify-content:center;
