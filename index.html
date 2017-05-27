@@ -3,8 +3,8 @@
  	<head>
  	<script src="script.js"></script>
  	<link rel="stylesheet" type="text/css" href="styles.css">
- 	<link href="https://fonts.googleapis.com/css?family=Muli|Questrial" rel="stylesheet">
- 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Dosis|EB+Garamond|Maven+Pro|Noto+Sans|Questrial|Quicksand|Raleway" rel="stylesheet">
+ 	<link rel="icon" href="images/icon.png">
  	</head>
  		<title>
  			Federico
@@ -14,37 +14,84 @@
  			Federico Firoozi
  		</h1>
  		<div class="tabBar">
-	 		<button class="mainTab" id="openFirst" onclick="openTab(event, 'abtme')" >About Me</button>
-	 		<button class="mainTab" onclick="openTab(event, 'acad')">Academics</button>
-	 		<button class="mainTab" onclick="openTab(event, 'tut')">Tutoring</button>
-	 		<button class="mainTab" onclick="openTab(event, 'cont')">Contact</button>
+	 		<button class="mainTab" id="tab1" onclick="openTab(event, 'abtme')" >About Me</button>
+	 		<button class="mainTab" id="tab2" onclick="openTab(event, 'acad')">Academics</button>
+	 		<button class="mainTab" id="tab3" onclick="openTab(event, 'exp')">Experience</button>
+	 		<button class="mainTab" id="tab4" onclick="openTab(event, 'tut')">Tutoring</button>
+	 		<button class="mainTab" id="tab5" onclick="openTab(event, 'cont')">Contact</button>
 	 	</div>
 	 	<div class="tabBox">
 			<div id="abtme" class="tabPage">
 			 	<h3>About Me</h3>
-			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed magna nisi, rutrum sed aliquam eu, egestas in nulla. Ut metus nisl, luctus non faucibus ut, varius at orci. Nulla facilisi. Nulla at pulvinar quam. Donec cursus enim quis sem condimentum tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lobortis lectus purus, eu cursus metus pellentesque sed. Praesent tristique condimentum quam vel fringilla. Cras varius nibh sit amet placerat semper. Vestibulum at interdum quam. Phasellus mollis fringilla est.
-			 	<br /><br />
-			 	Nullam dictum tortor erat, at tempor nisi fermentum nec. Vestibulum blandit cursus fermentum. Integer congue convallis erat, at ultrices dui dignissim vel. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean placerat, urna at volutpat suscipit, neque odio accumsan nibh, laoreet tempor nibh massa vitae sem. Mauris velit felis, imperdiet eget dui pellentesque, bibendum vulputate eros. Praesent varius turpis vel congue consectetur. Ut posuere tempus turpis, ut rutrum quam venenatis at. Phasellus nec elit vehicula, porta dolor ut, mattis ipsum. Nulla at ex magna. In porttitor nisl eros, vel consectetur lacus bibendum nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur facilisis arcu, in porttitor ipsum imperdiet non.</p>
+			 	<p>Hi! My name is <span class="bolded">Federico</span> 
+			 	<br>
+			 	I am a student at the <span class="bolded">University of Waterloo</span> studying math and physics, and I have just finished my second year of study. I have a passion for learning new concepts in these areas, and also have an interest in learning new applicable skills, such as fixing bikes and appliances, coding, and music.<br><br>
+			 	I like to lead an active lifestyle, and I much enjoy outdoor activities such as biking, hiking, and climbing rocks.<br><br>
+			 	I fluently speak three languages: English, Italian, and Farsi (Persian)<br><br>
+			 	Since I have a passion for undertainding math and physics concepts, I have also developed a strong interest in teaching these concepts to students and helping them succeed. More information on this can be found on my website's <span class="intLink"  onclick=document.getElementById("tab4").click()>Tutoring</span> tab.
+
+
+			 	<br />
+			 	</p>
 		 	</div>
 		 	<div id="acad" class="tabPage">
-			 	<h3>Academics and Qualifications</h3>
-			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet sapien sed sapien rhoncus dictum ac tempus orci. Aliquam rutrum, erat ut maximus efficitur, lorem erat tristique risus, ac dignissim arcu metus ut tellus. Phasellus quis viverra diam. Pellentesque id felis pulvinar, volutpat elit id, vehicula libero. Nullam eget massa metus. Praesent aliquam dolor sit amet ex elementum, in rhoncus urna porttitor. Quisque turpis nisi, semper et ligula in, blandit tincidunt dolor. Etiam ac mauris feugiat, vulputate est quis, tempus eros. Pellentesque tempus elit non sem vulputate viverra. Fusce a tristique libero. Mauris at imperdiet velit. Etiam facilisis est eget congue facilisis. Nullam hendrerit magna id tellus aliquet volutpat.
+			 	<h3>Academics</h3>
+			 	<p>I am a student currently enrolled at the <span class="bolded">University of Waterloo</span> in Honours Mathematics, on the road to declaring my major in <span class="bolded">Mathematical Physics</span>.
+			 	<br>
+			 	I have been on the <a href=https://uwaterloo.ca/math/current-undergraduates/funding-and-awards/deans-honours-list target="_blank">Term Dean's Honours List</a> for all of my school terms so far.
 			 	<br /><br />
-			 	Morbi molestie elementum bibendum. Proin ante diam, ullamcorper nec vestibulum vitae, mattis non nunc. Suspendisse ullamcorper tincidunt lacus eget suscipit. Ut consectetur justo in orci mollis, at rhoncus leo faucibus. Phasellus dignissim, sem eleifend porta posuere, lorem metus mattis libero, at finibus eros enim nec ante. Donec eu mauris eu erat ultricies imperdiet. Nunc vestibulum odio nisl, at suscipit augue auctor nec.</p>
+			 	Outside of school, I have also participated in academically enlightening experiences, and also have had much experience inpiring students to learn.
+			 	<br>
+			 	Academic extracurricular schools I've attended:<br>
+			 	<a href=http://www.perimeterinstitute.ca/outreach/students/programs/international-summer-school-young-physicists target="_blank">ISSYP</a> at the <span class="bolded">Perimeter insitute for Theoretical Physics</span><br>
+			 	<a href=https://uwaterloo.ca/institute-for-quantum-computing/programs/quantum-cryptography-school-young-students target="_blank">QCSYS</a> at the <span class="bolded">Institute for Quantum Computing</span><br>
+			 	<a href=http://www.shad.ca/ target="_blank">Shad Valley</a> at the <span class="bolded">University of Waterloo</span></p>
+		 	</div>
+			<div id="exp" class="tabPage">
+			 	<h3>Experience and Qualifications</h3>
+			 	<p>Throughout my journey in inpiring students to pursue their math education, I have had some experiences that have further developed my skills in teaching.<br><br>
+
+			 	<span class="bolded">Operations Lead and Online Tutor</span> at 360 Education Labs (Kitchener, Ontario)<br><br>
+
+			 	<span class="bolded">Usher</span> at the Michael J. Fox Theatre (Burnaby, B.C.)<br><br>
+
+			 	<span class="bolded">Private Tutor</span><br><br>
+
+			 	<span class="bolded">Physics Club</span> at Burnaby South Secondary School
+			 	</p>
 		 	</div>
 		 	<div id="tut" class="tabPage">
 			 	<h3>Tutoring</h3>
-			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit mauris, tincidunt at feugiat et, finibus eget erat. Donec et condimentum erat, et placerat arcu. Fusce mattis id massa sit amet tincidunt. In sed enim mattis, ultricies orci sed, pharetra nunc. Vestibulum ornare ante quis metus dignissim vulputate. Cras varius volutpat ligula, quis facilisis orci egestas non. Nam molestie turpis vitae sapien condimentum, vitae maximus sapien mattis. Nam eget neque quam. Nam consequat pretium ante et finibus. Maecenas fringilla faucibus justo, et tincidunt ante. Phasellus pellentesque vitae massa sodales vestibulum. Praesent at varius erat, vehicula condimentum libero.
-			 	<br /><br />
-			 	Morbi nec dolor in tellus eleifend vulputate vel sit amet ipsum. Ut eu cursus velit. Vivamus pulvinar quam lectus, ac sodales neque pellentesque vitae. Aliquam tincidunt dolor quis purus porta, at maximus massa commodo. Sed ex leo, euismod a turpis vel, aliquet vestibulum turpis. In vitae quam ut elit maximus maximus id a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce hendrerit eleifend faucibus. Nam neque odio, ultrices in lorem ac, eleifend eleifend leo. Pellentesque sit amet pulvinar neque. Sed sollicitudin, mi non sodales egestas, orci nisl porttitor purus, ac fermentum nunc ipsum at ex. Donec et efficitur augue, id luctus elit. Cras et tortor nulla. Morbi tempor dolor pulvinar, egestas sem et, feugiat tellus.</p>
+			 	<p>From my own passion in understanding concepts in math and physics, I have always been trying to help other students succeed. I find great joy in inspiring students to develop an interest in and possibly pursue mathematics. Math concepts are so strongly interlinked that any gaps in a student's understanding will hinder them greatly. As a tutor, it is my job to find those gaps and try to fill them, so that the student may succeed with their coursework and exams.<br>
+			 	<br>
+			 	I currently offer tutoring in: <span class="bolded">Lower Mainland, B.C.</span><br>
+			 	<br>
+			 	My rates are.<br>
+			 	<br>
+			 	One-on-one tutoring:<br>
+			 	$25/hour-$30/hour
+			 	<br><br>
+			 	Group sessions:<br>
+			 	$5/hour-$20/hour<br>
+			 	<br>
+			 	The subjects I offer are:<br>
+			 	<br>
+			 	University Level:<br>
+			 	Calculus 1, 2, and 3<br>
+			 	Physics 1<br>
+			 	Algebra 1<br>
+<br><br>
+			 	High School Level:<br>
+			 	Calculus and AP Calculus<br>
+			 	Math 8 to 12<br>
+
+
 		 	</div>
 		 	<div id="cont" class="tabPage">
 			 	<h3>Contact</h3>
-			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam odio enim, finibus at tellus at, ultrices lacinia eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus eu justo pellentesque, sagittis est eu, facilisis felis. Pellentesque bibendum interdum ex id consequat. Vestibulum faucibus diam sed venenatis accumsan. Aliquam ipsum tortor, feugiat id nibh nec, fermentum venenatis mi. Sed lacinia turpis sit amet bibendum molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus pulvinar tempus tempus. In commodo leo ligula, vitae dapibus lorem euismod vel. Donec vitae porttitor ante. Praesent mattis eleifend sagittis.
-			 	<br /><br />
-			 	Aliquam malesuada nunc ultrices, suscipit ipsum accumsan, laoreet mi. In hac habitasse platea dictumst. Nulla at velit pretium, ornare metus eget, pretium ante. Nam tempor eros id libero pellentesque, sit amet accumsan velit condimentum. Sed interdum metus ac sapien interdum sollicitudin. Aliquam eget enim id elit malesuada sodales volutpat nec dolor. Mauris vitae tortor nisl. Fusce lectus arcu, sollicitudin eget pretium sit amet, malesuada ac velit. Vivamus ultrices dolor at nulla finibus aliquam. Vestibulum diam ex, pulvinar non laoreet sit amet, semper tincidunt felis. Ut sapien lacus, pharetra eget ligula consectetur, faucibus blandit erat. Donec sagittis eleifend quam, sed finibus magna lacinia fringilla./p>
+			 	<p>Want to contact me? Feel free to reach out!</p>
 		 	</div>
 	 	</div>
  	</body>
- 	<script>document.getElementById("openFirst").click();</script>
+ 	<script>document.getElementById("tab1").click();</script>
  </html>
