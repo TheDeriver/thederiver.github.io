@@ -57,11 +57,13 @@ div.tabBar {
     user-select:none;
     cursor:default;
     transition: 0.3s;
+    -webkit-transition: 0.3s;
 }
 
 div.tabPage{
 	font-family: "Quicksand";
 	transition: 0.3s;
+	-webkit-transition: 0.3s;
 	display:block;
 }
 
@@ -80,6 +82,7 @@ div.tabBar button {
     outline: none;
     cursor: pointer;
     transition: 0.2s;
+    -webkit-transition: 0.2s;
 }
 
 div.tabBar button:hover {
@@ -99,4 +102,18 @@ div.tabBar button.active {
     display: none;
     padding: 6px 12px;
     border-top: none;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    opacity:0;
+}
+
+#cont img {
+	opacity:0.8;
+	transition:0.2s;
+	-webkit-transition: 0.2s;
+
+}
+#cont img:hover {
+	opacity:1;
+
 }
